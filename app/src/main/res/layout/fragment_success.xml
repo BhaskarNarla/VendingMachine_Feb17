@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.tcs.vendingmachine.Fragments.SummaryFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray">
+
+        <TextView android:id="@+id/successTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:text="@string/success"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableLeft="@drawable/smily"/>
+    <LinearLayout android:id="@+id/totalAmtLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/successTv"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelTv"
+            android:paddingTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:text="@string/totalAmt"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalAmtTv"
+            android:paddingTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="$1.2"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/insertedAmtLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totalAmtLL"
+        android:background="@color/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/insertedAmtLable"
+            android:text="@string/insertedAmt"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/insertedAmtTv"
+            android:text="$1.2"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/changeLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insertedAmtLL"
+        android:background="@color/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeLable"
+            android:text="@string/change"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeTv"
+            android:text="$1.2"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <TableLayout android:id="@+id/changeTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_below="@+id/changeLL"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+    <Button android:id="@+id/homeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:text="@string/goHome"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+

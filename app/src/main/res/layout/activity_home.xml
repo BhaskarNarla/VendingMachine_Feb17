@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_actionbar"></include>
+    <FrameLayout android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_actionbar"/>
+
+</RelativeLayout>
+    <!--<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tcs.mobilina.activities.MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_actionbar"></include>
+
+    &lt;!&ndash;<android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_32"
+        android:clickable="true"
+        android:src="@drawable/add_to_fav"
+        app:borderWidth="0dp"
+        app:fabSize="mini"
+        app:layout_anchor="@id/toolbar_actionbar"
+        app:layout_anchorGravity="bottom|right|end"
+        app:rippleColor="@color/colorBlue"></android.support.design.widget.FloatingActionButton>&ndash;&gt;
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_actionbar"></FrameLayout>
+
+
+    </RelativeLayout>-->

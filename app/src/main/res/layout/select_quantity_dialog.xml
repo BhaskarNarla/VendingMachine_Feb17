@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/qtySelectionRL"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/light_gray"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/close"
+            android:layout_margin="20dp"
+            android:src="@drawable/close"
+            />
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_margin="20dp"
+            android:id="@+id/select"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/select"
+            />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+            android:textColor="@color/dark_gray"
+            android:id="@+id/qty"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slectQty"
+            android:textSize="16sp"
+            android:text="Select Quantity"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/qty" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

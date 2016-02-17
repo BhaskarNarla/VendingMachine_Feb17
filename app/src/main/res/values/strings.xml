@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VendingMachine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="empty_list">Product list is empty</string>
+    <string name="Continue">Continue</string>
+    <string name="purhase">Purchase</string>
+    <string name="totalAmt">Total Amount</string>
+    <string name="insertAmt">Insert Amount</string>
+    <string name="insertedAmt">Inserted Amount</string>
+    <string name="change">Change</string>
+    <string name="goHome">Go Home</string>
+    <string name="success">Transaction has been successful</string>
+
+    <string name="cent_sign">&#x00A2;</string>
+    <string name="dollar_sign">$</string>
+
+    <string name="exit_message">Press back again to exit</string>
+
+
+    <color name="light_blue">#ADD8E6</color>
+    <color name="blue">#3399FF</color>
+    <color name="green">#006600</color>
+    <color name="white">#FFFFFF</color>
+    <color name="trans">#00000000 </color>
+    <color name="light_gray">#f7f7f7</color>
+    <color name="dark_gray">#7e8183</color>
+    <color name="orange">#ff4f2f</color>
+
+</resources>
